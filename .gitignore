@@ -1,0 +1,4 @@
+./api/config/config.json
+./package-lock.json
+./api/node_modules
+./sequelize.txt

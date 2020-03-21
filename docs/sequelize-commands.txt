@@ -1,0 +1,35 @@
+
+
+sequelize model:create --name users --underscored --attributes name:string,nameKana:string,email:string,password:string,sex:integer,address:string,mobile_phoneNum:string,home_phoneNum:string,authority:integer
+
+
+sequelize model:create --name profiles --underscored --attributes company:string,website:string,user_id:integer
+
+
+sequelize model:create --name educations --underscored --attributes school:string,degree:string,fieldofstudy:string,from:date,to:date,current:boolean,description:text,profile_id:string
+
+
+sequelize model:create --name deposits --underscored --attributes amount:integer,user_id:integer
+
+
+sequelize model:create --name deposits --underscored --attributes amount:integer,type:integer,status:integer,user_id:integer
+
+
+sequelize model:create --name books --underscored --attributes title:string,description:text,value:integer,user_id:integer
+
+
+sequelize model:create --name categorys --underscored --attributes name:string,description:text
+
+
+sequelize model:create --name book_categorys --underscored --attributes book_id:integer,category_id:integer
+
+sequelize model:create --name keys --underscored --attributes file:string,book_id:integer,user_id:integer
+
+
+sequelize model:create --name comments --underscored --attributes content:text,book_id:integer,user_id:integer
+
+
+sequelize model:create --name purchase_applications --underscored --attributes status:integer,book_id:integer,user_id:integer
+
+
+sequelize model:create --name recommends --underscored --attributes from:integer,to:integer,book_id:integer,user_id:integer
