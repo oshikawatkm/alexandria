@@ -6,16 +6,16 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a href="#" class="nav-link">トップ</a>
+              <router-link to="/" class="nav-link">トップ</router-link>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">マイページ</a>
+              <router-link to="/dashborad" class="nav-link">マイページ</router-link>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">新規登録</a>
+              <router-link to="/signup" class="nav-link">新規登録</router-link>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">ログイン</a>
+              <router-link to="/login" class="nav-link">ログイン</router-link>
             </li>
           </ul>
         </div>

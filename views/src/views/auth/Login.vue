@@ -1,7 +1,10 @@
 <template>
-  <div id="signup-section">
+  <div id="signup-section" class="bg-light">
     <div class="container">
-      <div class="card my-5">
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+          <div class="card m-5">
         <div class="card-body">
           <div class="container">
             <h1 class="card-title text-center my-5">ログイン</h1>
@@ -19,6 +22,8 @@
             </form>
           </div>
         </div>
+      </div></div>
+        <div class="col-md-2"></div>
       </div>
     </div>
   </div>

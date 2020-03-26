@@ -5,7 +5,7 @@ export const sexChoices = [
   { id: "noanswer", value: "1", labelText:"無回答" },
 ]
 
-export const prefecturesChoices = [
+export const prefecturesOptions = [
   { id: "1", name: "北海道" },
   { id: "2", name: "青森県" },
   { id: "3", name: "岩手県" },
@@ -55,3 +55,19 @@ export const prefecturesChoices = [
   { id: "47", name: "沖縄県" },
 ]
 
+
+export const birthYearOptions = [
+  { value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },{ value:"1900" },
+  { value:"2000" },{ value:"2000" },{ value:"2000" },{ value:"2000" },{ value:"2000" },{ value:"2000" },{ value:"2000" },{ value:"2000" },{ value:"2000" },{ value:"2000" },{ value:"2000" },{ value:"2000" },{ value:"2000" },{ value:"2000" },{ value:"2000" },{ value:"2000" },{ value:"2000" },{ value:"2000" },{ value:"2000" },{ value:"2000" },
+]
+
+
+
+export const birthMonthOptions = [
+  { value:"1" },{ value:"2" },{ value:"3" },{ value:"4" },{ value:"5" },{ value:"6" },{ value:"7" },{ value:"8" },{ value:"9" },{ value:"10" },{ value:"11" },{ value:"12" }
+]
+
+
+export const birthDayOptions = [
+  { value:"1" },{ value:"2" },{ value:"3" },{ value:"4" },{ value:"5" },{ value:"6" },{ value:"7" },{ value:"8" },{ value:"9" },{ value:"10" },{ value:"11" },{ value:"12" },{ value:"13" },{ value:"14" },{ value:"15" },{ value:"16" },{ value:"17" },{ value:"18" },{ value:"19" },{ value:"20" },{ value:"21" },{ value:"22" },{ value:"23" },{ value:"24" },{ value:"25" },{ value:"26" },{ value:"27" },{ value:"28" },{ value:"29" },{ value:"30" },{ value:"31" }
+]
